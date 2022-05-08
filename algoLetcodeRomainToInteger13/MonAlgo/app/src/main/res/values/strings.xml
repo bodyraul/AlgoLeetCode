@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">algoLetcodeNumber13</string>
+    <string name="message">Veuillez saisir un chiffre romain</string>
+</resources>
