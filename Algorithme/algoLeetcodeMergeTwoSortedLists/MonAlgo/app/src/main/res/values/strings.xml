@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MergeTwoSortedLists</string>
+    <string name="message">liste</string>
+    <string name="message2">saisissez une première liste de nombres</string>
+    <string name="message3">saisissez une deuxième liste de nombres</string>
+    <string name="bntvalider">ajouter</string>
+    <string name="bntvtrier">trier</string>
+</resources>
