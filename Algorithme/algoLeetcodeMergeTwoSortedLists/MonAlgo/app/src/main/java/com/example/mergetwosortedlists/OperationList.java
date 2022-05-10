@@ -8,11 +8,9 @@ public class OperationList {
 
     public List<Integer> trierListe(List<Integer> liste1,List<Integer> liste2){
         int tailleTbaleau=liste1.size()+liste2.size();
-        List<Integer>listeTriee= new ArrayList<Integer>();
+        List<Integer>listeTriee= new ArrayList<>();
         int indice1=0;
         int indice2=0;
-        final int tailleListe1=liste1.size();
-        boolean valider;
 
         if (liste1.size()==0 && liste2.size()==0){
             listeTriee.add(0);
@@ -53,7 +51,7 @@ public class OperationList {
     public String concatPhrase(List<Integer> list,String phrase){
         for(int k=0;k<list.size();k++){
             if (k!=list.size()-1){
-                phrase=phrase.concat( String.valueOf(list.get(k))+"  ");
+                phrase=phrase.concat(list.get(k) + "  "); // ajouter 3 espaces c'est plutot douteux
             }
             if (k==list.size()-1){
                 phrase=phrase.concat( String.valueOf(list.get(k)));
